@@ -1,33 +1,18 @@
 README
 ================
 
-## R Markdown
+This repository contains all code used in Chapter 7 of the 2020 Forest
+Health Monitoring national report, “Advancing Broad-scale Forest Health
+Evaluation and Monitoring with rFIA”. Link to the report coming soon
+(once published online).
 
-This is an R Markdown document. Markdown is a simple formatting syntax
-for authoring HTML, PDF, and MS Word documents. For more details on
-using R Markdown see <http://rmarkdown.rstudio.com>.
+Under `src/`, you will find individual scripts associated with each case
+study presented in the Chapter. To try them out, simply download this
+repository (and unzip it), and run any/all of these scripts. All FIA
+data will be downloaded upon running the code (can be extremely large,
+\~50BG), so feel free to modify scope (i.e., drop states) as you please.
+All code should be self contained and run out of the box, but if you run
+into trouble contact Hunter Stanke via email at <stankehu@uw.edu>.
 
-When you click the **Knit** button a document will be generated that
-includes both content as well as the output of any embedded R code
-chunks within the document. You can embed an R code chunk like this:
-
-``` r
-summary(cars)
-```
-
-    ##      speed           dist       
-    ##  Min.   : 4.0   Min.   :  2.00  
-    ##  1st Qu.:12.0   1st Qu.: 26.00  
-    ##  Median :15.0   Median : 36.00  
-    ##  Mean   :15.4   Mean   : 42.98  
-    ##  3rd Qu.:19.0   3rd Qu.: 56.00  
-    ##  Max.   :25.0   Max.   :120.00
-
-## Including Plots
-
-You can also embed plots, for example:
-
-![](README_files/figure-gfm/pressure-1.png)<!-- -->
-
-Note that the `echo = FALSE` parameter was added to the code chunk to
-prevent printing of the R code that generated the plot.
+For more on rFIA, including other example use cases, check out our
+![official website](https://rfia.netlify.app/).

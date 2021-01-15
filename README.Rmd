@@ -7,22 +7,9 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+This repository contains all code used in Chapter 7 of the 2020 Forest Health Monitoring national report, "Advancing Broad-scale Forest Health Evaluation and Monitoring with rFIA". Link to the report coming soon (once published online).
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+Under `src/`, you will find individual scripts associated with each case study presented in the Chapter. To try them out, simply download this repository (and unzip it), and run any/all of these scripts. All FIA data will be downloaded upon running the code (can be extremely large, ~50BG), so  feel free to modify scope (i.e., drop states) as you please. All code should be self contained and run out of the box, but if you run into trouble contact Hunter Stanke via email at stankehu@uw.edu. 
 
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+For more on rFIA, including other example use cases, check out our ![official website](https://rfia.netlify.app/).
