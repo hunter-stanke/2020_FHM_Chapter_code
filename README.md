@@ -15,4 +15,4 @@ All code should be self contained and run out of the box, but if you run
 into trouble contact Hunter Stanke via email at <stankehu@uw.edu>.
 
 For more on rFIA, including other example use cases, check out our
-![official website](https://rfia.netlify.app/).
+[official website](https://rfia.netlify.app/).
